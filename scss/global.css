@@ -21,12 +21,15 @@
 }
 
 /* Reapply the pointer cursor for anchor tags */
-a, button {
+a,
+button {
   cursor: revert;
 }
 
 /* Remove list styles (bullets/numbers) */
-ol, ul, menu {
+ol,
+ul,
+menu {
   list-style: none;
 }
 
@@ -42,7 +45,8 @@ table {
 }
 
 /* Safari - solving issue when using user-select:none on the <body> text input doesn't working */
-input, textarea {
+input,
+textarea {
   -webkit-user-select: auto;
 }
 
@@ -199,6 +203,7 @@ header ul li a:hover {
   max-height: 40px;
   height: 100%;
   box-sizing: border-box;
+  outline: none;
   border: 2px solid #fcf9f9;
   border-radius: 8px;
   font-size: 30px;
@@ -269,32 +274,35 @@ section .container00 .card {
   align-items: center;
   box-shadow: 10px 5px 5px #d8bebe;
   background-color: #967979;
+  transition: 500ms;
+  background-color: #3e3c3c;
 }
-section .container00 .card .img {
+section .container00 .img {
   background-image: url(/images/b3.jpg);
   background-color: #967979;
   border-radius: 8% 8% 0% 0%;
 }
-section .container00 .card .n {
+section .container00 .n {
   font-family: "Dancing Script", cursive;
   font-size: 55px;
   color: rgb(252, 234, 234);
   font-weight: 50px;
 }
-section .container00 .card .np {
+section .container00 .np {
   font-family: "Dancing Script", cursive;
   font-size: 30px;
   color: rgb(252, 234, 234);
   font-weight: 20px;
   vertical-align: center;
 }
-section .ddng {
+
+.ddng {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 60px;
 }
-section .ddng .xsh {
+.ddng .xsh {
   background-image: url("/images/xx.jpg");
   background-color: #dec2c2;
   height: 500px;
@@ -310,7 +318,7 @@ section .ddng .xsh {
   flex-direction: column;
   background-blend-mode: overlay;
 }
-section .ddng .xsh #myBtn {
+.ddng .xsh #myBtn {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -322,8 +330,12 @@ section .ddng .xsh #myBtn {
   background-color: #3f2d2d;
   border-radius: 15px;
   box-shadow: #7e6a6a 10px 3px 3px;
+  transition: 500ms;
 }
-section .ddng .xsh p {
+.ddng .xsh #myBtn:hover {
+  background-color: white;
+}
+.ddng .xsh p {
   font-size: 20px;
   color: #000000;
   font-family: "Archivo", sans-serif;
@@ -404,4 +416,87 @@ section .ddng .xsh p {
 .container11 .fa-brands {
   font-size: 30px;
   color: #faf9f8;
+}
+
+.cardnext {
+  margin-top: 4%;
+  max-width: 1440px;
+  width: 100%;
+  max-height: 3200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.cardnext .ertiani {
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #d8bebe;
+}
+.cardnext .ertiani .damiano {
+  border-radius: 15px 0px 0px 15px;
+  max-width: 720px;
+  width: 100%;
+  max-height: 720px;
+  width: 100%;
+}
+.cardnext .ertiani .qan {
+  margin: 3% 8% 0%;
+  max-width: 620px;
+  width: 100%;
+  max-height: 3200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cardnext .ertiani .qan .saxeli {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--Gray-10, #0e1020);
+  text-shadow: #7e6a6a 10px 8px 8px;
+  max-width: 1196px;
+  width: 100%;
+  max-height: 150px;
+  height: 100%;
+  font-family: "Merienda", cursive;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 125% */
+}
+.cardnext .ertiani .qan .informacia {
+  color: #574646;
+  font-family: "Lobster Two", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 125% */
+}
+.cardnext .ertiani .qan .biografia {
+  color: var(--Gray-10, #4a549f);
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+.cardnext .ertiani .qan .inf {
+  color: var(--Gray-10, #0e1020);
+  font-family: "Hedvig Letters Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+.cardnext .ertiani .qan .fa-instagram {
+  color: black;
+  font-size: 50px;
 }/*# sourceMappingURL=global.css.map */

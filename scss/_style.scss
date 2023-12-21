@@ -87,6 +87,7 @@ header {
         max-height: 40px;
         height: 100%;
         box-sizing: border-box;
+        outline: none;
         border: 2px solid #fcf9f9;
         border-radius: 8px;
         font-size: 30px;
@@ -94,6 +95,7 @@ header {
         background-color: #fcf9f9;
         background-image: url("searchicon.png");
         background-repeat: no-repeat;
+
         transition: 500ms;
         &:focus {
           background-color: rgb(219, 209, 209);
@@ -314,5 +316,91 @@ section {
   .fa-brands {
     font-size: 30px;
     color: #faf9f8;
+  }
+}
+
+.cardnext {
+  margin-top: 4%;
+  max-width: 1440px;
+  width: 100%;
+  max-height: 3200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+
+  .ertiani {
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #d8bebe;
+    .damiano {
+      border-radius: 15px 0px 0px 15px;
+      max-width: 720px;
+      width: 100%;
+      max-height: 720px;
+      width: 100%;
+    }
+    .qan {
+      margin: 3% 8% 0%;
+      max-width: 620px;
+      width: 100%;
+      max-height: 3200px;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      .saxeli {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: var(--Gray-10, #0e1020);
+        text-shadow: #7e6a6a 10px 8px 8px;
+        max-width: 1196px;
+        width: 100%;
+        max-height: 150px;
+        height: 100%;
+        font-family: "Merienda", cursive;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px; /* 125% */
+      }
+
+      .informacia {
+        color: #574646;
+        font-family: "Lobster Two", sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px; /* 125% */
+      }
+      .biografia {
+        color: var(--Gray-10, #4a549f);
+        font-family: "Fira Sans", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 160% */
+      }
+
+      .inf {
+        color: var(--Gray-10, #0e1020);
+        font-family: "Hedvig Letters Sans", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 160% */
+      }
+      .fa-instagram {
+        color: black;
+        font-size: 50px;
+      }
+    }
   }
 }
