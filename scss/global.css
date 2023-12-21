@@ -155,7 +155,7 @@ header ul li a {
   transition: 500ms;
 }
 header ul li a:hover {
-  color: rgb(219, 209, 209);
+  color: rgb(194, 189, 189);
 }
 
 .container1 {
@@ -177,7 +177,7 @@ header ul li a:hover {
   transition: 500ms;
 }
 .container1 ul li h1:hover {
-  color: rgb(219, 209, 209);
+  color: rgb(194, 189, 189);
 }
 .container1 ul li ::-moz-placeholder {
   font-family: "Roboto", sans-serif;
@@ -196,6 +196,7 @@ header ul li a:hover {
   height: 40px;
 }
 .container1 ul li input[type=text] {
+  outline: none;
   padding-left: 5px;
   padding-bottom: 9px;
   max-width: 600px;
@@ -214,7 +215,7 @@ header ul li a:hover {
   transition: 500ms;
 }
 .container1 ul li input[type=text]:focus {
-  background-color: rgb(219, 209, 209);
+  background-color: rgb(214, 207, 207);
 }
 .container1 ul li .fa-magnifying-glass {
   font-size: 30px;
@@ -223,7 +224,7 @@ header ul li a:hover {
   transition: 500ms;
 }
 .container1 ul li .fa-magnifying-glass:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(194, 189, 189);
 }
 .container1 ul li .fa-house {
   font-size: 30px;
@@ -231,7 +232,7 @@ header ul li a:hover {
   transition: 500ms;
 }
 .container1 ul li .fa-house:hover {
-  color: rgb(219, 209, 209);
+  color: rgb(194, 189, 189);
 }
 .container1 ul li .fa-music {
   font-size: 30px;
@@ -241,7 +242,7 @@ header ul li a:hover {
   transition: 500ms;
 }
 .container1 ul li .fa-music:hover {
-  color: rgb(219, 209, 209);
+  color: rgb(194, 189, 189);
 }
 .container1 ul li .fa-guitar {
   font-size: 40px;
@@ -249,7 +250,7 @@ header ul li a:hover {
   transition: 500ms;
 }
 .container1 ul li .fa-guitar:hover {
-  color: rgb(219, 209, 209);
+  color: rgb(194, 189, 189);
 }
 
 section .con3 .item {
@@ -276,6 +277,10 @@ section .container00 .card {
   background-color: #967979;
   transition: 500ms;
   background-color: #3e3c3c;
+  transition: 500ms;
+}
+section .container00 .card:hover {
+  box-shadow: #4a4949 10px 5px 5px;
 }
 section .container00 .img {
   background-image: url(/images/b3.jpg);
@@ -333,7 +338,7 @@ section .container00 .np {
   transition: 500ms;
 }
 .ddng .xsh #myBtn:hover {
-  background-color: white;
+  background-color: rgb(154, 147, 147);
 }
 .ddng .xsh p {
   font-size: 20px;
@@ -355,6 +360,10 @@ section .container00 .np {
   width: 24px;
   height: 24px;
   color: white;
+  transition: 500ms;
+}
+.lox .fa-chevron-up:hover {
+  color: rgb(194, 189, 189);
 }
 .lox .z {
   width: 96px;
@@ -366,6 +375,10 @@ section .container00 .np {
   font-style: normal;
   font-weight: 700;
   line-height: 16px; /* 100% */
+  transition: 500ms;
+}
+.lox .z:hover {
+  color: rgb(194, 189, 189);
 }
 
 .container11 {
@@ -387,6 +400,10 @@ section .container00 .np {
   font-style: normal;
   font-weight: 400;
   line-height: 40px; /* 100% */
+  transition: 500ms;
+}
+.container11 .gv:hover {
+  color: rgb(194, 189, 189);
 }
 .container11 .sht {
   font-family: "Dancing Script", cursive;
@@ -395,6 +412,10 @@ section .container00 .np {
   font-style: normal;
   font-weight: 300;
   line-height: 40px; /* 166.667% */
+  transition: 500ms;
+}
+.container11 .sht:hover {
+  color: rgb(194, 189, 189);
 }
 .container11 h4 {
   color: #fff;
@@ -403,6 +424,10 @@ section .container00 .np {
   font-style: normal;
   font-weight: 400;
   line-height: 48px; /* 200% */
+  transition: 500ms;
+}
+.container11 h4:hover {
+  color: rgb(194, 189, 189);
 }
 .container11 .sna {
   display: flex;
@@ -416,6 +441,10 @@ section .container00 .np {
 .container11 .fa-brands {
   font-size: 30px;
   color: #faf9f8;
+  transition: 500ms;
+}
+.container11 .fa-brands:hover {
+  color: rgb(194, 189, 189);
 }
 
 .cardnext {
@@ -487,6 +516,10 @@ section .container00 .np {
   font-style: normal;
   font-weight: 500;
   line-height: 32px; /* 160% */
+  transition: 500ms;
+}
+.cardnext .ertiani .qan .biografia:hover {
+  color: rgb(126, 149, 157);
 }
 .cardnext .ertiani .qan .inf {
   color: var(--Gray-10, #0e1020);
@@ -499,4 +532,8 @@ section .container00 .np {
 .cardnext .ertiani .qan .fa-instagram {
   color: black;
   font-size: 50px;
+  transition: 500ms;
+}
+.cardnext .ertiani .qan .fa-instagram:hover {
+  color: rgb(109, 105, 105);
 }/*# sourceMappingURL=global.css.map */
