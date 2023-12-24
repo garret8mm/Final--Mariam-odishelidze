@@ -147,6 +147,9 @@ header {
 
 section {
   .con3 {
+    .Maneskin {
+    }
+
     .item {
       margin-bottom: 0px;
       padding-bottom: 0px;
@@ -439,6 +442,202 @@ section {
           color: rgb(109, 105, 105);
         }
       }
+    }
+  }
+}
+
+.consin {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 100px;
+
+  .fa-solid {
+    font-size: 50px;
+    color: #7e6a6a;
+    transition: 500ms;
+    &:hover {
+      color: #dabcbc;
+    }
+  }
+  .cardibi {
+    max-width: 300px;
+    width: 100%;
+    max-height: 900px;
+    height: 100%;
+    background-color: #ad9b9b;
+    box-shadow: #d2b6b6 8px 10px 8px;
+
+    flex-wrap: wrap;
+    margin-left: 1%;
+
+    transition: 500ms;
+
+    .btn {
+      background-color: #655757;
+      border-width: 2px;
+      border-color: #655757;
+      border: none;
+      outline-color: 655757;
+      width: 100%;
+      max-height: 70px;
+      height: 100%;
+      font-size: 20px;
+      font-family: "Arimo", sans-serif;
+      transition: 500ms;
+      &:hover {
+        background-color: #a9a4a4;
+        border-color: #a9a4a4;
+      }
+    }
+    .title1 {
+      color: var(--Gray-10, #ffffff);
+      font-family: "Pacifico", cursive;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 40px; /* 111.111% */
+    }
+
+    .title2 {
+      color: var(--Gray-10, #ffffff);
+      font-family: "Pacifico", cursive;
+      font-size: 55px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 40px; /* 111.111% */
+    }
+
+    .title3 {
+      color: var(--Gray-10, #ffffff);
+      font-family: "Pacifico", cursive;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 40px; /* 111.111% */
+    }
+
+    .title00 {
+      color: var(--Gray-10, #fafafb);
+      font-family: "Pacifico", cursive;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 40px; /* 111.111% */
+    }
+
+    .beggin {
+      object-fit: cover;
+      max-width: 400px;
+      width: 100%;
+      max-height: 400px;
+      height: 100%;
+      flex-shrink: 0;
+    }
+
+    .fasi {
+      color: var(--Gray-10, #fdfdfd);
+      font-family: "Arimo", sans-serif;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 32px; /* 100% */
+    }
+
+    .saerto {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      max-width: 170px;
+      width: 100%;
+      .coin {
+        color: var(--Gray-10, #fafbfb);
+        font-family: "Arimo", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 120% */
+      }
+    }
+  }
+}
+
+.containmar {
+  width: 100%;
+  max-height: 250px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 60px;
+  background-color: #dec7c7;
+  box-shadow: #967979 8px 10px 8px;
+
+  .simgeram {
+    background-image: url(../images/orig.webp);
+    background-color: #967979;
+    background-size: 150px;
+    max-width: 200px;
+    width: 100%;
+    outline: none;
+    height: 100px;
+    background-position: center;
+    width: 100%;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .fa-play {
+      font-size: 50px;
+      display: flex;
+
+      color: rgb(255, 255, 255);
+    }
+  }
+  .gonn {
+    .gonna {
+      color: white;
+      font-family: "Oswald", sans-serif;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 40px; /* 111.111% */
+      transition: 500ms;
+      &:hover {
+        color: rgb(164, 131, 131);
+        text-decoration: none;
+      }
+    }
+  }
+  .fa-phone-volume {
+    font-size: 30px;
+    color: white;
+  }
+
+  .time {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+  }
+
+  .fa-download {
+    font-size: 30px;
+    color: white;
+    margin-right: 40px;
+    transition: 500ms;
+    &:hover {
+      color: rgb(164, 131, 131);
     }
   }
 }
