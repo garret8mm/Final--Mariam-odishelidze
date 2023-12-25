@@ -716,4 +716,77 @@ section .container00 .np {
 }
 .containmar .fa-download:hover {
   color: rgb(164, 131, 131);
+}
+
+.final {
+  background-color: #c2b0b0;
+  box-shadow: #9b8b8b 10px 10px 10px 10px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.final .saxelwodeba {
+  color: rgb(251, 251, 251);
+  font-family: "Patrick Hand", cursive;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 111.111% */
+  margin-bottom: 5%;
+}
+.final .fc {
+  color: rgb(251, 251, 251);
+  font-family: "Patrick Hand", cursive;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 200% */
+  margin-right: 8px;
+}
+.final .linkki {
+  color: rgb(138, 71, 71);
+  font-family: "Almarai", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+  transition: 500ms;
+}
+.final .linkki:hover {
+  text-decoration: none;
+  color: rgb(114, 113, 113);
+}
+.final .fb {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.final .fnk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.final .fa-computer {
+  font-size: 40px;
+  color: rgb(127, 107, 107);
+}
+.final .fa-code {
+  font-size: 40px;
+  color: rgb(127, 107, 107);
+}
+.final .fa-keyboard {
+  color: rgb(127, 107, 107);
+  font-size: 40px;
+}
+.final .mere {
+  max-width: 200px;
+  width: 100%;
+  max-height: 100px;
+  height: 200%;
+  margin-top: 5%;
 }/*# sourceMappingURL=global.css.map */
