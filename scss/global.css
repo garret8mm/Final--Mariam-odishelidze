@@ -179,6 +179,12 @@ header ul li a:hover {
 .container1 ul li h1:hover {
   color: rgb(194, 189, 189);
 }
+@media (max-width: 768px) {
+  .container1 ul li h1 {
+    color: #4a549f;
+    font-size: 20px;
+  }
+}
 .container1 ul li ::-moz-placeholder {
   font-family: "Roboto", sans-serif;
   color: var(--Primary-7, #b6a1a1);
