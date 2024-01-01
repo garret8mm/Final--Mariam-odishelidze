@@ -1,7 +1,6 @@
 header {
   max-width: 100%;
   background-color: #967979;
-
   .container2 {
     height: 72px;
     display: flex;
@@ -9,7 +8,6 @@ header {
     align-items: center;
     flex-wrap: nowrap;
     background-color: #a18686;
-
     .n1 {
       display: flex;
       justify-content: space-between;
@@ -21,7 +19,6 @@ header {
       flex-shrink: 0;
     }
   }
-
   ul {
     display: flex;
     justify-content: space-between;
@@ -45,7 +42,6 @@ header {
     }
   }
 }
-
 .container1 {
   height: 136px;
   max-width: 1240px;
@@ -54,15 +50,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   ul {
     li {
       h1 {
-        
-          @media (max-width: 768px) 
-          color:black
-          font-size: 20px;
-    
         color: var(--Secondary-1, #faf9f8);
         font-family: "Pacifico", cursive;
         font-size: 60px;
@@ -72,9 +62,8 @@ header {
         transition: 500ms;
         &:hover {
           color: rgb(194, 189, 189);
-
+        }
       }
-
       ::placeholder {
         font-family: "Roboto", sans-serif;
         color: var(--Primary-7, #b6a1a1);
@@ -83,7 +72,6 @@ header {
         font-weight: 400px;
         height: 40px;
       }
-
       input[type="text"] {
         outline: none;
         padding-left: 5px;
@@ -101,13 +89,11 @@ header {
         background-color: #fcf9f9;
         background-image: url("searchicon.png");
         background-repeat: no-repeat;
-
         transition: 500ms;
         &:focus {
           background-color: rgb(214, 207, 207);
         }
       }
-
       .fa-magnifying-glass {
         font-size: 30px;
         color: #dec2c2;
@@ -117,7 +103,6 @@ header {
           color: rgb(194, 189, 189);
         }
       }
-
       .fa-house {
         font-size: 30px;
         color: #fefbfb;
@@ -126,7 +111,6 @@ header {
           color: rgb(194, 189, 189);
         }
       }
-
       .fa-music {
         font-size: 30px;
         color: #fefbfb;
@@ -137,7 +121,6 @@ header {
           color: rgb(194, 189, 189);
         }
       }
-
       .fa-guitar {
         font-size: 40px;
         color: #fcf8fc;
@@ -149,7 +132,6 @@ header {
     }
   }
 }
-
 section {
   .con3 {
     .item {
@@ -157,13 +139,11 @@ section {
       padding-bottom: 0px;
     }
   }
-
   .container00 {
     margin-top: 104px;
     display: flex;
     justify-content: space-evenly;
     vertical-align: center;
-
     .card {
       max-width: 400px;
       width: 100%;
@@ -194,7 +174,6 @@ section {
       color: rgb(252, 234, 234);
       font-weight: 50px;
     }
-
     .np {
       font-family: "Dancing Script", cursive;
       font-size: 30px;
@@ -204,7 +183,6 @@ section {
     }
   }
 }
-
 .ddng {
   display: flex;
   justify-content: space-around;
@@ -249,7 +227,6 @@ section {
     }
   }
 }
-
 .lox {
   margin-top: 104px;
   background-color: #a18686;
@@ -284,7 +261,6 @@ section {
     }
   }
 }
-
 .container11 {
   max-height: 424px;
   height: 100%;
@@ -320,7 +296,6 @@ section {
       color: rgb(194, 189, 189);
     }
   }
-
   h4 {
     color: #fff;
     font-family: "Roboto", sans-serif;
@@ -333,7 +308,6 @@ section {
       color: rgb(194, 189, 189);
     }
   }
-
   .sna {
     display: flex;
     flex-direction: row;
@@ -352,7 +326,6 @@ section {
     }
   }
 }
-
 .cardnext {
   margin-top: 4%;
   max-width: 1440px;
@@ -363,7 +336,6 @@ section {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-
   .ertiani {
     border-radius: 15px;
     display: flex;
@@ -371,7 +343,6 @@ section {
     flex-direction: row;
     align-items: flex-start;
     background-color: #d8bebe;
-
     .damiano {
       border-radius: 15px 0px 0px 15px;
       max-width: 720px;
@@ -406,7 +377,6 @@ section {
         font-weight: 600;
         line-height: 40px; /* 125% */
       }
-
       .informacia {
         color: #574646;
         font-family: "Lobster Two", sans-serif;
@@ -427,7 +397,6 @@ section {
           color: rgb(126, 149, 157);
         }
       }
-
       .inf {
         color: var(--Gray-10, #0e1020);
         font-family: "Hedvig Letters Sans", sans-serif;
@@ -447,14 +416,12 @@ section {
     }
   }
 }
-
 .consin {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
   margin-top: 100px;
-
   .fa-solid {
     font-size: 50px;
     color: #7e6a6a;
@@ -470,12 +437,9 @@ section {
     height: 100%;
     background-color: #ad9b9b;
     box-shadow: #d2b6b6 8px 10px 8px;
-
     flex-wrap: wrap;
     margin-left: 1%;
-
     transition: 500ms;
-
     .btn {
       background-color: #655757;
       border-width: 2px;
@@ -501,7 +465,6 @@ section {
       font-weight: 500;
       line-height: 40px; /* 111.111% */
     }
-
     .title2 {
       color: var(--Gray-10, #ffffff);
       font-family: "Pacifico", cursive;
@@ -510,7 +473,6 @@ section {
       font-weight: 500;
       line-height: 40px; /* 111.111% */
     }
-
     .title3 {
       color: var(--Gray-10, #ffffff);
       font-family: "Pacifico", cursive;
@@ -519,7 +481,6 @@ section {
       font-weight: 400;
       line-height: 40px; /* 111.111% */
     }
-
     .title00 {
       color: var(--Gray-10, #fafafb);
       font-family: "Pacifico", cursive;
@@ -528,7 +489,6 @@ section {
       font-weight: 400;
       line-height: 40px; /* 111.111% */
     }
-
     .beggin {
       object-fit: cover;
       max-width: 400px;
@@ -537,7 +497,6 @@ section {
       height: 100%;
       flex-shrink: 0;
     }
-
     .fasi {
       color: var(--Gray-10, #fdfdfd);
       font-family: "Arimo", sans-serif;
@@ -546,7 +505,6 @@ section {
       font-weight: 300;
       line-height: 32px; /* 100% */
     }
-
     .saerto {
       display: flex;
       justify-content: space-between;
@@ -565,7 +523,6 @@ section {
     }
   }
 }
-
 .containmar {
   width: 100%;
   max-height: 250px;
@@ -578,7 +535,6 @@ section {
   margin-top: 60px;
   background-color: #dec7c7;
   box-shadow: #967979 8px 10px 8px;
-
   .simgeram {
     background-image: url(../images/orig.webp);
     background-color: #967979;
@@ -596,11 +552,9 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-
     .fa-play {
       font-size: 50px;
       display: flex;
-
       color: rgb(255, 255, 255);
     }
   }
@@ -623,7 +577,6 @@ section {
     font-size: 30px;
     color: white;
   }
-
   .time {
     color: white;
     font-family: "Oswald", sans-serif;
@@ -632,7 +585,6 @@ section {
     font-weight: 500;
     line-height: 40px; /* 111.111% */
   }
-
   .fa-download {
     font-size: 30px;
     color: white;
