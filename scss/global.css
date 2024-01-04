@@ -119,6 +119,14 @@ header {
   max-width: 100%;
   background-color: #967979;
 }
+@media (max-width: 947px) {
+  header {
+    width: 100%;
+    background-color: #967979;
+    max-height: 136px;
+    height: 100%;
+  }
+}
 header .container2 {
   height: 72px;
   display: flex;
@@ -126,6 +134,15 @@ header .container2 {
   align-items: center;
   flex-wrap: nowrap;
   background-color: #a18686;
+}
+@media (max-width: 768px) {
+  header .container2 {
+    width: 100%;
+    background-color: #a18686;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 }
 header .container2 .n1 {
   display: flex;
@@ -145,6 +162,19 @@ header ul {
   max-width: 600px;
   width: 100%;
 }
+@media (max-width: 684px) {
+  header ul {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media (max-width: 768px) {
+  header ul li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
 header ul li a {
   font-family: "Courgette", cursive;
   color: rgb(251, 251, 252);
@@ -153,6 +183,16 @@ header ul li a {
   font-weight: 400;
   line-height: normal;
   transition: 500ms;
+}
+@media (max-width: 947px) {
+  header ul li a {
+    font-size: 15px;
+  }
+}
+@media (max-width: 372px) {
+  header ul li a {
+    font-size: 11px;
+  }
 }
 header ul li a:hover {
   color: rgb(194, 189, 189);
@@ -167,6 +207,20 @@ header ul li a:hover {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 947px) {
+  .container1 {
+    width: 100%;
+    max-height: 200px;
+    height: 100%;
+  }
+}
+@media (max-width: 1290px) {
+  .container1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
 .container1 ul li h1 {
   color: var(--Secondary-1, #faf9f8);
   font-family: "Pacifico", cursive;
@@ -175,6 +229,21 @@ header ul li a:hover {
   font-weight: 400;
   line-height: 40px; /* 100% */
   transition: 500ms;
+}
+@media (max-width: 947px) {
+  .container1 ul li h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 652px) {
+  .container1 ul li h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 496px) {
+  .container1 ul li h1 {
+    font-size: 20px;
+  }
 }
 .container1 ul li h1:hover {
   color: rgb(194, 189, 189);
@@ -195,6 +264,32 @@ header ul li a:hover {
   font-weight: 400px;
   height: 40px;
 }
+@media (max-width: 947px) {
+  .container1 ul li ::-moz-placeholder {
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    color: var(--Primary-7, #b6a1a1);
+    font-style: normal;
+    font-weight: 400px;
+    height: 30px;
+  }
+  .container1 ul li ::placeholder {
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    color: var(--Primary-7, #b6a1a1);
+    font-style: normal;
+    font-weight: 400px;
+    height: 30px;
+  }
+}
+@media (max-width: 652px) {
+  .container1 ul li ::-moz-placeholder {
+    font-size: 8px;
+  }
+  .container1 ul li ::placeholder {
+    font-size: 8px;
+  }
+}
 .container1 ul li input[type=text] {
   outline: none;
   padding-left: 5px;
@@ -214,6 +309,24 @@ header ul li a:hover {
   background-repeat: no-repeat;
   transition: 500ms;
 }
+@media (max-width: 947px) {
+  .container1 ul li input[type=text] {
+    max-width: 200px;
+    width: 100%;
+    max-height: 30px;
+    height: 100%;
+  }
+}
+@media (max-width: 652px) {
+  .container1 ul li input[type=text] {
+    font-size: 30px;
+    max-width: 150px;
+    width: 100%;
+    max-height: 20px;
+    height: 100%;
+    margin-top: 2%;
+  }
+}
 .container1 ul li input[type=text]:focus {
   background-color: rgb(214, 207, 207);
 }
@@ -223,6 +336,21 @@ header ul li a:hover {
   margin-left: 9px;
   transition: 500ms;
 }
+@media (max-width: 947px) {
+  .container1 ul li .fa-magnifying-glass {
+    font-size: 20px;
+  }
+}
+@media (max-width: 652px) {
+  .container1 ul li .fa-magnifying-glass {
+    font-size: 15px;
+  }
+}
+@media (max-width: 496px) {
+  .container1 ul li .fa-magnifying-glass {
+    font-size: 8px;
+  }
+}
 .container1 ul li .fa-magnifying-glass:hover {
   color: rgb(194, 189, 189);
 }
@@ -230,6 +358,21 @@ header ul li a:hover {
   font-size: 30px;
   color: #fefbfb;
   transition: 500ms;
+}
+@media (max-width: 947px) {
+  .container1 ul li .fa-house {
+    font-size: 20px;
+  }
+}
+@media (max-width: 652px) {
+  .container1 ul li .fa-house {
+    font-size: 15px;
+  }
+}
+@media (max-width: 496px) {
+  .container1 ul li .fa-house {
+    font-size: 8px;
+  }
 }
 .container1 ul li .fa-house:hover {
   color: rgb(194, 189, 189);
@@ -241,6 +384,21 @@ header ul li a:hover {
   margin-right: 16px;
   transition: 500ms;
 }
+@media (max-width: 947px) {
+  .container1 ul li .fa-music {
+    font-size: 20px;
+  }
+}
+@media (max-width: 652px) {
+  .container1 ul li .fa-music {
+    font-size: 15px;
+  }
+}
+@media (max-width: 496px) {
+  .container1 ul li .fa-music {
+    font-size: 8px;
+  }
+}
 .container1 ul li .fa-music:hover {
   color: rgb(194, 189, 189);
 }
@@ -248,6 +406,21 @@ header ul li a:hover {
   font-size: 40px;
   color: #fcf8fc;
   transition: 500ms;
+}
+@media (max-width: 947px) {
+  .container1 ul li .fa-guitar {
+    font-size: 20px;
+  }
+}
+@media (max-width: 652px) {
+  .container1 ul li .fa-guitar {
+    font-size: 15px;
+  }
+}
+@media (max-width: 496px) {
+  .container1 ul li .fa-guitar {
+    font-size: 8px;
+  }
 }
 .container1 ul li .fa-guitar:hover {
   color: rgb(194, 189, 189);
@@ -262,6 +435,14 @@ section .container00 {
   display: flex;
   justify-content: space-evenly;
   vertical-align: center;
+}
+@media (max-width: 1255px) {
+  section .container00 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 section .container00 .card {
   max-width: 400px;
@@ -278,6 +459,11 @@ section .container00 .card {
   transition: 500ms;
   background-color: #3e3c3c;
   transition: 500ms;
+}
+@media (max-width: 1255px) {
+  section .container00 .card {
+    max-width: 80%;
+  }
 }
 section .container00 .card:hover {
   box-shadow: #4a4949 10px 5px 5px;
