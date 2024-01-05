@@ -1125,10 +1125,23 @@ section .container00 .np {
   flex-direction: row;
   margin-top: 100px;
 }
+@media (max-width: 998px) {
+  .consin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 .consin .fa-solid {
   font-size: 50px;
   color: #7e6a6a;
   transition: 500ms;
+}
+@media (max-width: 1232px) {
+  .consin .fa-solid {
+    display: none;
+  }
 }
 .consin .fa-solid:hover {
   color: #dabcbc;
@@ -1144,6 +1157,12 @@ section .container00 .np {
   margin-left: 1%;
   transition: 500ms;
 }
+@media (max-width: 998px) {
+  .consin .cardibi {
+    max-width: 50%;
+    margin-top: 5%;
+  }
+}
 .consin .cardibi .btn {
   background-color: #655757;
   border-width: 2px;
@@ -1157,6 +1176,21 @@ section .container00 .np {
   font-family: "Arimo", sans-serif;
   transition: 500ms;
 }
+@media (max-width: 735px) {
+  .consin .cardibi .btn {
+    font-size: 14px;
+  }
+}
+@media (max-width: 370px) {
+  .consin .cardibi .btn {
+    font-size: 10px;
+  }
+}
+@media (max-width: 340px) {
+  .consin .cardibi .btn {
+    font-size: 9px;
+  }
+}
 .consin .cardibi .btn:hover {
   background-color: #a9a4a4;
   border-color: #a9a4a4;
@@ -1169,6 +1203,30 @@ section .container00 .np {
   font-weight: 500;
   line-height: 40px; /* 111.111% */
 }
+@media (max-width: 735px) {
+  .consin .cardibi .title1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -2%;
+  }
+}
+@media (max-width: 660px) {
+  .consin .cardibi .title1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 384px) {
+  .consin .cardibi .title1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 378px) {
+  .consin .cardibi .title1 {
+    margin-bottom: -10%;
+  }
+}
 .consin .cardibi .title2 {
   color: var(--Gray-10, #ffffff);
   font-family: "Pacifico", cursive;
@@ -1176,6 +1234,30 @@ section .container00 .np {
   font-style: normal;
   font-weight: 500;
   line-height: 40px; /* 111.111% */
+}
+@media (max-width: 735px) {
+  .consin .cardibi .title2 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -2%;
+  }
+}
+@media (max-width: 660px) {
+  .consin .cardibi .title2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 384px) {
+  .consin .cardibi .title2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 378px) {
+  .consin .cardibi .title2 {
+    margin-bottom: -10%;
+  }
 }
 .consin .cardibi .title3 {
   color: var(--Gray-10, #ffffff);
@@ -1185,6 +1267,30 @@ section .container00 .np {
   font-weight: 400;
   line-height: 40px; /* 111.111% */
 }
+@media (max-width: 735px) {
+  .consin .cardibi .title3 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -2%;
+  }
+}
+@media (max-width: 660px) {
+  .consin .cardibi .title3 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 384px) {
+  .consin .cardibi .title3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 378px) {
+  .consin .cardibi .title3 {
+    margin-bottom: -10%;
+  }
+}
 .consin .cardibi .title00 {
   color: var(--Gray-10, #fafafb);
   font-family: "Pacifico", cursive;
@@ -1192,6 +1298,25 @@ section .container00 .np {
   font-style: normal;
   font-weight: 400;
   line-height: 40px; /* 111.111% */
+}
+@media (max-width: 735px) {
+  .consin .cardibi .title00 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -2%;
+  }
+}
+@media (max-width: 384px) {
+  .consin .cardibi .title00 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 378px) {
+  .consin .cardibi .title00 {
+    margin-bottom: -10%;
+  }
 }
 .consin .cardibi .beggin {
   -o-object-fit: cover;
@@ -1202,6 +1327,63 @@ section .container00 .np {
   height: 100%;
   flex-shrink: 0;
 }
+@media (max-width: 998px) {
+  .consin .cardibi .beggin {
+    -o-object-fit: cover;
+       object-fit: cover;
+    max-width: 100%;
+  }
+}
+@media (max-width: 998px) {
+  .consin .cardibi .forma {
+    margin-top: -20%;
+  }
+}
+@media (max-width: 742px) {
+  .consin .cardibi .forma {
+    margin-top: -25%;
+  }
+}
+@media (max-width: 628px) {
+  .consin .cardibi .forma {
+    margin-top: -30%;
+  }
+}
+@media (max-width: 628px) {
+  .consin .cardibi .forma {
+    margin-top: -35%;
+  }
+}
+@media (max-width: 451px) {
+  .consin .cardibi .forma {
+    margin-top: -45%;
+  }
+}
+@media (max-width: 383px) {
+  .consin .cardibi .forma {
+    margin-top: -50%;
+  }
+}
+@media (max-width: 325px) {
+  .consin .cardibi .forma {
+    margin-top: -55%;
+  }
+}
+@media (max-width: 277px) {
+  .consin .cardibi .forma {
+    margin-top: -70%;
+  }
+}
+@media (max-width: 315px) {
+  .consin .cardibi .forma {
+    margin-top: -70%;
+  }
+}
+@media (max-width: 283px) {
+  .consin .cardibi .forma {
+    margin-top: -72%;
+  }
+}
 .consin .cardibi .fasi {
   color: var(--Gray-10, #fdfdfd);
   font-family: "Arimo", sans-serif;
@@ -1209,6 +1391,23 @@ section .container00 .np {
   font-style: normal;
   font-weight: 300;
   line-height: 32px; /* 100% */
+}
+@media (max-width: 735px) {
+  .consin .cardibi .fasi {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: -1%;
+  }
+}
+@media (max-width: 660px) {
+  .consin .cardibi .fasi {
+    font-size: 15px;
+  }
+}
+@media (max-width: 364px) {
+  .consin .cardibi .fasi {
+    margin-left: 8px;
+  }
 }
 .consin .cardibi .saerto {
   display: flex;
@@ -1225,6 +1424,35 @@ section .container00 .np {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 120% */
+}
+@media (max-width: 735px) {
+  .consin .cardibi .saerto .coin {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 660px) {
+  .consin .cardibi .saerto .coin {
+    font-size: 15px;
+  }
+}
+@media (max-width: 384px) {
+  .consin .cardibi .saerto .coin {
+    font-size: 10px;
+  }
+}
+@media (max-width: 364px) {
+  .consin .cardibi .saerto .coin {
+    margin-left: 8px;
+  }
+}
+@media (max-width: 735px) {
+  .consin .cardibi .saerto .stu {
+    max-width: 100px;
+    width: 100%;
+    max-height: 50px;
+    height: 100%;
+  }
 }
 
 .containmar {
