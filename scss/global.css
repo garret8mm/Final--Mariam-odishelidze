@@ -144,6 +144,14 @@ header .container2 {
     align-items: center;
   }
 }
+@media (max-width: 405px) {
+  header .container2 {
+    width: 100%;
+    background-color: #a18686;
+    height: 100%;
+    margin-bottom: 40px;
+  }
+}
 header .container2 .n1 {
   display: flex;
   justify-content: space-between;
@@ -194,6 +202,12 @@ header ul li a {
     font-size: 11px;
   }
 }
+@media (max-width: 405px) {
+  header ul li a {
+    margin-top: 10px;
+    font-size: 11px;
+  }
+}
 header ul li a:hover {
   color: rgb(194, 189, 189);
 }
@@ -204,6 +218,7 @@ header ul li a:hover {
   width: 100%;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -219,6 +234,22 @@ header ul li a:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+  }
+}
+@media (max-width: 405px) {
+  .container1 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (max-width: 405px) {
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    max-height: 150px;
+    height: 100%;
   }
 }
 .container1 ul li h1 {
@@ -243,6 +274,11 @@ header ul li a:hover {
 @media (max-width: 496px) {
   .container1 ul li h1 {
     font-size: 20px;
+  }
+}
+@media (max-width: 405px) {
+  .container1 ul li h1 {
+    margin-bottom: -30px;
   }
 }
 .container1 ul li h1:hover {
@@ -315,6 +351,7 @@ header ul li a:hover {
     width: 100%;
     max-height: 30px;
     height: 100%;
+    margin-top: 20px;
   }
 }
 @media (max-width: 652px) {
@@ -324,7 +361,36 @@ header ul li a:hover {
     width: 100%;
     max-height: 20px;
     height: 100%;
-    margin-top: 2%;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 340px) {
+  .container1 ul li input[type=text] {
+    font-size: 30px;
+    max-width: 100px;
+    width: 100%;
+    max-height: 15px;
+    height: 100%;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 405px) {
+  .container1 ul li input[type=text] {
+    font-size: 30px;
+    max-width: 150px;
+    width: 100%;
+    max-height: 20px;
+    height: 100%;
+  }
+}
+@media (max-width: 945px) {
+  .container1 ul li input[type=text] {
+    padding-bottom: 8%;
+  }
+}
+@media (max-width: 611px) {
+  .container1 ul li input[type=text] {
+    padding-bottom: 10%;
   }
 }
 .container1 ul li input[type=text]:focus {
@@ -351,6 +417,16 @@ header ul li a:hover {
     font-size: 8px;
   }
 }
+@media (max-width: 409px) {
+  .container1 ul li .fa-magnifying-glass {
+    margin-right: 7px;
+  }
+}
+@media (max-width: 950px) {
+  .container1 ul li .fa-magnifying-glass {
+    margin-top: 20px;
+  }
+}
 .container1 ul li .fa-magnifying-glass:hover {
   color: rgb(194, 189, 189);
 }
@@ -372,6 +448,17 @@ header ul li a:hover {
 @media (max-width: 496px) {
   .container1 ul li .fa-house {
     font-size: 8px;
+    margin-left: 5px;
+  }
+}
+@media (max-width: 945px) {
+  .container1 ul li .fa-house {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 405px) {
+  .container1 ul li .fa-house {
+    margin-top: 0px;
   }
 }
 .container1 ul li .fa-house:hover {
@@ -399,6 +486,16 @@ header ul li a:hover {
     font-size: 8px;
   }
 }
+@media (max-width: 945px) {
+  .container1 ul li .fa-music {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 405px) {
+  .container1 ul li .fa-music {
+    margin-top: 0px;
+  }
+}
 .container1 ul li .fa-music:hover {
   color: rgb(194, 189, 189);
 }
@@ -420,6 +517,17 @@ header ul li a:hover {
 @media (max-width: 496px) {
   .container1 ul li .fa-guitar {
     font-size: 8px;
+    margin-left: 7px;
+  }
+}
+@media (max-width: 945px) {
+  .container1 ul li .fa-guitar {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 405px) {
+  .container1 ul li .fa-guitar {
+    margin-top: 0px;
   }
 }
 .container1 ul li .fa-guitar:hover {
@@ -442,6 +550,7 @@ section .container00 {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    margin-top: 5%;
   }
 }
 section .container00 .card {
@@ -491,6 +600,11 @@ section .container00 .n {
     font-size: 40px;
   }
 }
+@media (max-width: 299px) {
+  section .container00 .n {
+    margin-left: 25%;
+  }
+}
 section .container00 .np {
   font-family: "Dancing Script", cursive;
   font-size: 30px;
@@ -509,6 +623,11 @@ section .container00 .np {
   justify-content: space-around;
   align-items: center;
   margin-top: 60px;
+}
+@media (max-width: 1255px) {
+  .ddng {
+    margin-top: 0%;
+  }
 }
 .ddng .xsh {
   background-image: url("/images/xx.jpg");
@@ -649,6 +768,8 @@ section .container00 .np {
 @media (max-width: 1339px) {
   .container11 .gv {
     font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: -3px;
   }
 }
 @media (max-width: 1465px) {
@@ -701,7 +822,7 @@ section .container00 .np {
 .container11 .sht:hover {
   color: rgb(194, 189, 189);
 }
-.container11 .axc h4 {
+.container11 h4 {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
@@ -711,19 +832,17 @@ section .container00 .np {
   transition: 500ms;
 }
 @media (max-width: 1339px) {
-  .container11 .axc h4 {
+  .container11 h4 {
     font-size: 15px;
-    margin-left: 5%;
-    display: flex;
-    flex-direction: row;
+    margin-bottom: -30px;
   }
 }
 @media (max-width: 508px) {
-  .container11 .axc h4 {
+  .container11 h4 {
     font-size: 10px;
   }
 }
-.container11 .axc h4:hover {
+.container11 h4:hover {
   color: rgb(194, 189, 189);
 }
 
